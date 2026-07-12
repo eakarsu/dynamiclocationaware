@@ -1,0 +1,6610 @@
+[
+  {
+    "name": "AI Analyses",
+    "canonicalKey": "ai analyse",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/ai-analyses"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:488",
+        "route": "/api/ai-analyses",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:500",
+        "route": "/api/ai-analyses",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "AI Analytics",
+    "canonicalKey": "ai analytic",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/AIAnalytics",
+      "/ai-analytics"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/components/Sidebar.jsx:9",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:79",
+        "route": "/ai-analytics",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/AIAnalytics.jsx",
+        "route": "/AIAnalytics",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Ab Testing",
+    "canonicalKey": "ab testing",
+    "aliases": [
+      "Ab Testing Page"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/ABTestingPage",
+      "/api/ab-testing",
+      "/dashboard/ab-testing"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/App.jsx:52",
+        "route": "/dashboard/ab-testing",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/components/AppLayout.jsx:32",
+        "route": "/dashboard/ab-testing",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/services/api.js:297",
+        "route": "/api/ab-testing",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/ABTestingPage.jsx",
+        "route": "/ABTestingPage",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Aggregate Round",
+    "canonicalKey": "aggregate round",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/aggregate-round"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/routes/federatedLearning.js:47",
+        "route": "/aggregate-round",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Alert Rules",
+    "canonicalKey": "alert rule",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/alert-rules",
+      "/api/alert-rules"
+    ],
+    "sourceProjects": [
+      "AIAgentObservabilityPlus",
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/agent-observability-plus",
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIAgentObservabilityPlus",
+        "path": "backend/routes/customViews.js:211",
+        "route": "/alert-rules",
+        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAgentObservabilityPlus",
+        "path": "backend/routes/customViews.js:213",
+        "route": "/alert-rules",
+        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:439",
+        "route": "/api/alert-rules",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:451",
+        "route": "/api/alert-rules",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Algo Explainer Gap",
+    "canonicalKey": "algo explainer gap",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:89",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Algorithm Explainer",
+    "canonicalKey": "algorithm explainer",
+    "aliases": [
+      "Algorithm Explainer Page"
+    ],
+    "kinds": [
+      "api",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/AlgorithmExplainerPage",
+      "/algorithm-explainer",
+      "/api/ai/algorithm-explainer"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/index.js:377",
+        "route": "/api/ai/algorithm-explainer",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:78",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:140",
+        "route": "/algorithm-explainer",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/AlgorithmExplainerPage.js",
+        "route": "/AlgorithmExplainerPage",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Algorithm Optimization",
+    "canonicalKey": "algorithm optimization",
+    "aliases": [],
+    "kinds": [
+      "model",
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "model",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/models/AlgorithmOptimization.js",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:42",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Analyze Drift",
+    "canonicalKey": "analyze drift",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/devices/:id/shadow/analyze-drift"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:855",
+        "route": "/api/devices/:id/shadow/analyze-drift",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Benchmark Analysis",
+    "canonicalKey": "analysis benchmark",
+    "aliases": [
+      "Benchmark Analysis Page"
+    ],
+    "kinds": [
+      "api",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/BenchmarkAnalysisPage",
+      "/api/ai/benchmark-analysis",
+      "/benchmark-analysis"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/index.js:564",
+        "route": "/api/ai/benchmark-analysis",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:82",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:180",
+        "route": "/benchmark-analysis",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/BenchmarkAnalysisPage.js",
+        "route": "/BenchmarkAnalysisPage",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Benchmark Analysis Gap",
+    "canonicalKey": "analysis benchmark gap",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:93",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Benchmark Runner",
+    "canonicalKey": "benchmark runner",
+    "aliases": [
+      "Benchmark Runner Page"
+    ],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/BenchmarkRunnerPage",
+      "/benchmark-runner"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:77",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:130",
+        "route": "/benchmark-runner",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/BenchmarkRunnerPage.js",
+        "route": "/BenchmarkRunnerPage",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Benchmark Test",
+    "canonicalKey": "benchmark test",
+    "aliases": [],
+    "kinds": [
+      "model",
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "model",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/models/BenchmarkTest.js",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:68",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Benchmarking Store Gap",
+    "canonicalKey": "benchmarking gap store",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:98",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Benchmarks",
+    "canonicalKey": "benchmark",
+    "aliases": [
+      "Benchmark"
+    ],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/api/benchmarks",
+      "/benchmarks",
+      "/dashboard/benchmarks",
+      "/leaderboard/:benchmark"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator",
+      "company-brain",
+      "software-for-agents"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware",
+      "ai-ml-platforms-dev-tools/luran-ai",
+      "ai-ml-platforms-dev-tools/software-for-agents-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "software-for-agents",
+        "path": "backend/routes/eval-harness.js:98",
+        "route": "/leaderboard/:benchmark",
+        "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "software-for-agents",
+        "path": "backend/routes/eval-harness.js:73",
+        "route": "/benchmarks",
+        "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "company-brain",
+        "path": "backend/routes/retrieval-eval.js:33",
+        "route": "/benchmarks",
+        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/components/AppLayout.jsx:22",
+        "route": "/dashboard/benchmarks",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/services/api.js:147",
+        "route": "/api/benchmarks",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Billing Stripe",
+    "canonicalKey": "billing stripe",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/billing-stripe"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/ai.js:205",
+        "route": "/billing-stripe",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Brand Safety",
+    "canonicalKey": "brand safety",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/brand-safety"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/aiExtra.js:61",
+        "route": "/brand-safety",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Budget Alerts",
+    "canonicalKey": "alert budget",
+    "aliases": [
+      "Budget Alerts Page"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/BudgetAlertsPage",
+      "/api/budget-alerts",
+      "/dashboard/budget-alerts"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/App.jsx:51",
+        "route": "/dashboard/budget-alerts",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/components/AppLayout.jsx:31",
+        "route": "/dashboard/budget-alerts",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/services/api.js:197",
+        "route": "/api/budget-alerts",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/BudgetAlertsPage.jsx",
+        "route": "/BudgetAlertsPage",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Budget Allocate",
+    "canonicalKey": "allocate budget",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/budget-allocate"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/aiNew.js:374",
+        "route": "/budget-allocate",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Budget Allocation",
+    "canonicalKey": "allocation budget",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/budget-allocation"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/ai.js:90",
+        "route": "/budget-allocation",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Cache Management",
+    "canonicalKey": "cache",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/api/cache-management",
+      "/dashboard/cache-management"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/components/AppLayout.jsx:51",
+        "route": "/dashboard/cache-management",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/services/api.js:403",
+        "route": "/api/cache-management",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Cf Agentic Device Health Monitor Predicting",
+    "canonicalKey": "agentic cf device health monitor predicting",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfAgenticDeviceHealthMonitorPredicting",
+      "/cf-agentic-device-health-monitor-predicting"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:88",
+        "route": "/cf-agentic-device-health-monitor-predicting",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/CfAgenticDeviceHealthMonitorPredicting.jsx",
+        "route": "/CfAgenticDeviceHealthMonitorPredicting",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Cf Av Anomaly Detection For Camera And",
+    "canonicalKey": "and anomaly av camera cf detection for",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfAvAnomalyDetectionForCameraAnd",
+      "/cf-av-anomaly-detection-for-camera-and"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:93",
+        "route": "/cf-av-anomaly-detection-for-camera-and",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/CfAvAnomalyDetectionForCameraAnd.jsx",
+        "route": "/CfAvAnomalyDetectionForCameraAnd",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Cf Device Marketplace Integration Auto Disc",
+    "canonicalKey": "auto cf device disc integration marketplace",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfDeviceMarketplaceIntegrationAutoDisc",
+      "/cf-device-marketplace-integration-auto-disc"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:91",
+        "route": "/cf-device-marketplace-integration-auto-disc",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/CfDeviceMarketplaceIntegrationAutoDisc.jsx",
+        "route": "/CfDeviceMarketplaceIntegrationAutoDisc",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Cf Energy Efficiency Optimizer Extending Ex",
+    "canonicalKey": "cf efficiency energy ex extending optimizer",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfEnergyEfficiencyOptimizerExtendingEx",
+      "/cf-energy-efficiency-optimizer-extending-ex"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:92",
+        "route": "/cf-energy-efficiency-optimizer-extending-ex",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/CfEnergyEfficiencyOptimizerExtendingEx.jsx",
+        "route": "/CfEnergyEfficiencyOptimizerExtendingEx",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Cf Error Mitigation Advisor",
+    "canonicalKey": "advisor cf error mitigation",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfErrorMitigationAdvisor",
+      "/cf-error-mitigation-advisor"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:214",
+        "route": "/cf-error-mitigation-advisor",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/CfErrorMitigationAdvisor.jsx",
+        "route": "/CfErrorMitigationAdvisor",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Cf Federated Learning For Edge Models Train",
+    "canonicalKey": "cf edge federated for learning models train",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfFederatedLearningForEdgeModelsTrain",
+      "/cf-federated-learning-for-edge-models-train"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:89",
+        "route": "/cf-federated-learning-for-edge-models-train",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/CfFederatedLearningForEdgeModelsTrain.jsx",
+        "route": "/CfFederatedLearningForEdgeModelsTrain",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Cf Hardware Benchmarking Dashboard",
+    "canonicalKey": "benchmarking cf dashboard hardware",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfHardwareBenchmarkingDashboard",
+      "/cf-hardware-benchmarking-dashboard"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:212",
+        "route": "/cf-hardware-benchmarking-dashboard",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/CfHardwareBenchmarkingDashboard.jsx",
+        "route": "/CfHardwareBenchmarkingDashboard",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Cf Problemtocircuit Compiler",
+    "canonicalKey": "cf compiler problemtocircuit",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfProblemtocircuitCompiler",
+      "/cf-problemtocircuit-compiler"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:211",
+        "route": "/cf-problemtocircuit-compiler",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/CfProblemtocircuitCompiler.jsx",
+        "route": "/CfProblemtocircuitCompiler",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Cf Quantum Algorithm Tutor",
+    "canonicalKey": "algorithm cf quantum tutor",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfQuantumAlgorithmTutor",
+      "/cf-quantum-algorithm-tutor"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:210",
+        "route": "/cf-quantum-algorithm-tutor",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/CfQuantumAlgorithmTutor.jsx",
+        "route": "/CfQuantumAlgorithmTutor",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Cf Quantumclassical Hybrid Planner",
+    "canonicalKey": "cf hybrid planner quantumclassical",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfQuantumclassicalHybridPlanner",
+      "/cf-quantumclassical-hybrid-planner"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:215",
+        "route": "/cf-quantumclassical-hybrid-planner",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/CfQuantumclassicalHybridPlanner.jsx",
+        "route": "/CfQuantumclassicalHybridPlanner",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Cf Smart Agent Orchestration Coordinating C",
+    "canonicalKey": "agent c cf coordinating orchestration smart",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfSmartAgentOrchestrationCoordinatingC",
+      "/cf-smart-agent-orchestration-coordinating-c"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:90",
+        "route": "/cf-smart-agent-orchestration-coordinating-c",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/CfSmartAgentOrchestrationCoordinatingC.jsx",
+        "route": "/CfSmartAgentOrchestrationCoordinatingC",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Cf Variational Circuit Optimizer",
+    "canonicalKey": "cf circuit optimizer variational",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfVariationalCircuitOptimizer",
+      "/cf-variational-circuit-optimizer"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:213",
+        "route": "/cf-variational-circuit-optimizer",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/CfVariationalCircuitOptimizer.jsx",
+        "route": "/CfVariationalCircuitOptimizer",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Circuit Design",
+    "canonicalKey": "circuit design",
+    "aliases": [],
+    "kinds": [
+      "model",
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "model",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/models/CircuitDesign.js",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:40",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Circuit Diagram Gap",
+    "canonicalKey": "circuit diagram gap",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:95",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Circuit Generator",
+    "canonicalKey": "circuit generator",
+    "aliases": [
+      "Circuit Generator Page"
+    ],
+    "kinds": [
+      "api",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/CircuitGeneratorPage",
+      "/api/ai/circuit-generator",
+      "/circuit-generator"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/index.js:512",
+        "route": "/api/ai/circuit-generator",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:81",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:170",
+        "route": "/circuit-generator",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/CircuitGeneratorPage.js",
+        "route": "/CircuitGeneratorPage",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Circuit Generator Gap",
+    "canonicalKey": "circuit gap generator",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:90",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Circuit Id",
+    "canonicalKey": "circuit id",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/hardware-profiles/:hwId/transpile/:circuitId",
+      "/api/quantum/simulate/:circuitId"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/index.js:110",
+        "route": "/api/quantum/simulate/:circuitId",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/index.js:155",
+        "route": "/api/hardware-profiles/:hwId/transpile/:circuitId",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Circuit Library Gap",
+    "canonicalKey": "circuit gap library",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:100",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Commissioning Pdf",
+    "canonicalKey": "commissioning pdf",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/commissioning-pdf"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/routes/customViews.js:201",
+        "route": "/commissioning-pdf",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Core Tools",
+    "canonicalKey": "core",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:38",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Cost Allocation",
+    "canonicalKey": "allocation cost",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/api/cost-allocation",
+      "/dashboard/cost-allocation"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/components/AppLayout.jsx:53",
+        "route": "/dashboard/cost-allocation",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/services/api.js:455",
+        "route": "/api/cost-allocation",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Cost Analytics",
+    "canonicalKey": "analytic cost",
+    "aliases": [
+      "Cost Analytics Page"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CostAnalyticsPage",
+      "/api/cost-analytics",
+      "/dashboard/cost-analytics"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/App.jsx:49",
+        "route": "/dashboard/cost-analytics",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/components/AppLayout.jsx:20",
+        "route": "/dashboard/cost-analytics",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/services/api.js:97",
+        "route": "/api/cost-analytics",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/CostAnalyticsPage.jsx",
+        "route": "/CostAnalyticsPage",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Cost Anomaly Detection",
+    "canonicalKey": "anomaly cost detection",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/cost-anomaly-detection"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/ai.js:9",
+        "route": "/cost-anomaly-detection",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Cost Forecasting",
+    "canonicalKey": "cost forecasting",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/api/cost-forecasting",
+      "/cost-forecasting",
+      "/dashboard/cost-forecasting"
+    ],
+    "sourceProjects": [
+      "AIDevOpsInfrastructure",
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dev-ops-infrastructure",
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDevOpsInfrastructure",
+        "path": "server/routes/aiNew.js:368",
+        "route": "/cost-forecasting",
+        "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/components/AppLayout.jsx:34",
+        "route": "/dashboard/cost-forecasting",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/services/api.js:273",
+        "route": "/api/cost-forecasting",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Course Structure Gap",
+    "canonicalKey": "course gap structure",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:97",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Custom Model Register",
+    "canonicalKey": "custom model register",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/custom-model-register"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/ai.js:307",
+        "route": "/custom-model-register",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Demand Forecast",
+    "canonicalKey": "demand forecast",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/demand-forecast"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/aiNew.js:452",
+        "route": "/demand-forecast",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Desired",
+    "canonicalKey": "desired",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/devices/:id/shadow/desired"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:819",
+        "route": "/api/devices/:id/shadow/desired",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Device Classes",
+    "canonicalKey": "classe device",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/device-classes"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/routes/customViews.js:285",
+        "route": "/device-classes",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/routes/customViews.js:289",
+        "route": "/device-classes",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Device Cluster Analysis",
+    "canonicalKey": "analysis cluster device",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/ai/device-cluster-analysis"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:897",
+        "route": "/api/ai/device-cluster-analysis",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Device Id",
+    "canonicalKey": "device id",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/telemetry/device/:deviceId",
+      "/device-status/:deviceId"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT",
+      "AINetworkascodeplatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/browser-extension-platform",
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINetworkascodeplatform",
+        "path": "backend/routes/camara.js:73",
+        "route": "/device-status/:deviceId",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:356",
+        "route": "/api/telemetry/device/:deviceId",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Devices",
+    "canonicalKey": "device",
+    "aliases": [
+      "Device Detail",
+      "Device Management"
+    ],
+    "kinds": [
+      "api",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/DeviceDetail",
+      "/Devices",
+      "/api/devices",
+      "/devices"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT",
+      "AINetworkascodeplatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/browser-extension-platform",
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AINetworkascodeplatform",
+        "path": "frontend/src/components/Sidebar.jsx:27",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AINetworkascodeplatform",
+        "path": "frontend/src/App.jsx:93",
+        "route": "/devices",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AINetworkascodeplatform",
+        "path": "frontend/src/components/Sidebar.jsx:29",
+        "route": "/devices",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AINetworkascodeplatform",
+        "path": "frontend/src/pages/Dashboard.jsx:25",
+        "route": "/devices",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/DeviceDetail.jsx",
+        "route": "/DeviceDetail",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:209",
+        "route": "/api/devices",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:282",
+        "route": "/api/devices",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/components/Sidebar.jsx:6",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:75",
+        "route": "/devices",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/Devices.jsx",
+        "route": "/Devices",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Dynamic Pricing",
+    "canonicalKey": "dynamic pricing",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/dynamic-pricing"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/aiNew.js:536",
+        "route": "/dynamic-pricing",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Edge Inference",
+    "canonicalKey": "edge inference",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/EdgeInference",
+      "/api/edge-inferences",
+      "/edge-inference"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:621",
+        "route": "/api/edge-inferences",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:634",
+        "route": "/api/edge-inferences",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/components/Sidebar.jsx:10",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:81",
+        "route": "/edge-inference",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/EdgeInference.jsx",
+        "route": "/EdgeInference",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Edge Inference Deployment",
+    "canonicalKey": "deployment edge inference",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/ai/edge-inference-deployment"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:960",
+        "route": "/api/ai/edge-inference-deployment",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Energy Efficiency Advisor",
+    "canonicalKey": "advisor efficiency energy",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/ai/energy-efficiency-advisor"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:1057",
+        "route": "/api/ai/energy-efficiency-advisor",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Entanglement Analysis",
+    "canonicalKey": "analysis entanglement",
+    "aliases": [],
+    "kinds": [
+      "model",
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "model",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/models/EntanglementAnalysis.js",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:53",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Error Correction",
+    "canonicalKey": "correction error",
+    "aliases": [],
+    "kinds": [
+      "model",
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "model",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/models/ErrorCorrection.js",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:41",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Error Mitigation",
+    "canonicalKey": "error mitigation",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:83",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Error Mitigation Advisor",
+    "canonicalKey": "advisor error mitigation",
+    "aliases": [
+      "Error Mitigation Advisor Page"
+    ],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/ErrorMitigationAdvisorPage",
+      "/api/ai/error-mitigation-advisor",
+      "/error-mitigation-advisor"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/index.js:640",
+        "route": "/api/ai/error-mitigation-advisor",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:190",
+        "route": "/error-mitigation-advisor",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/ErrorMitigationAdvisorPage.js",
+        "route": "/ErrorMitigationAdvisorPage",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Error Mitigation Gap",
+    "canonicalKey": "error gap mitigation",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:94",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Error Record",
+    "canonicalKey": "error record",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/error-record"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/ai.js:358",
+        "route": "/error-record",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Evaluate",
+    "canonicalKey": "evaluate",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/evaluate",
+      "/alerts/evaluate",
+      "/evaluate"
+    ],
+    "sourceProjects": [
+      "AIDevOpsInfrastructure",
+      "AIDynamiclocationaware",
+      "AIModelCostOrchestrator",
+      "AINetworkascodeplatform",
+      "AiBusinessAutomation",
+      "ai-operating-system-for-companies",
+      "dynamic-software-interfaces"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/automateinternational",
+      "ai-ml-platforms-dev-tools/browser-extension-platform",
+      "ai-ml-platforms-dev-tools/code-interpreter",
+      "ai-ml-platforms-dev-tools/dev-ops-infrastructure",
+      "ai-ml-platforms-dev-tools/dynamiclocationaware",
+      "ai-ml-platforms-dev-tools/software-for-agents-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-operating-system-for-companies",
+        "path": "backend/routes/gap-nonai-alerting.js:94",
+        "route": "/evaluate",
+        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "dynamic-software-interfaces",
+        "path": "backend/routes/intent_classifier.js:112",
+        "route": "/evaluate",
+        "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDevOpsInfrastructure",
+        "path": "server/routes/aiBacklog.js:85",
+        "route": "/alerts/evaluate",
+        "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AINetworkascodeplatform",
+        "path": "backend/routes/anomalyRules.js:151",
+        "route": "/:id/evaluate",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/weatherTriggered.js:31",
+        "route": "/evaluate",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/sla-cost-guardrail.js:4",
+        "route": "/evaluate",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiBusinessAutomation",
+        "path": "backend/src/routes/vendors.js:77",
+        "route": "/:id/evaluate",
+        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
+      }
+    ]
+  },
+  {
+    "name": "Firmware",
+    "canonicalKey": "firmware",
+    "aliases": [
+      "Firmware Updates"
+    ],
+    "kinds": [
+      "api",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/Firmware",
+      "/api/firmware",
+      "/api/firmware-updates",
+      "/firmware"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:560",
+        "route": "/api/firmware",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/components/Sidebar.jsx:11",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:80",
+        "route": "/firmware",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/Firmware.jsx",
+        "route": "/Firmware",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:569",
+        "route": "/api/firmware-updates",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:585",
+        "route": "/api/firmware-updates",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Firmware Recommendation",
+    "canonicalKey": "firmware recommendation",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/ai/firmware-recommendation"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:923",
+        "route": "/api/ai/firmware-recommendation",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Firmware Rollback Window",
+    "canonicalKey": "firmware rollback window",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/FirmwareRollbackWindow",
+      "/firmware-rollback-window"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:104",
+        "route": "/firmware-rollback-window",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/FirmwareRollbackWindow.jsx",
+        "route": "/FirmwareRollbackWindow",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Fleet Ops AI Tools",
+    "canonicalKey": "ai fleet ops",
+    "aliases": [
+      "Fleet Ops AI"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/FleetOpsAITools",
+      "/fleet-ops-ai"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:85",
+        "route": "/fleet-ops-ai",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/FleetOpsAITools.jsx",
+        "route": "/FleetOpsAITools",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Fleet Query",
+    "canonicalKey": "fleet query",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/ai/fleet-query"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:676",
+        "route": "/api/ai/fleet-query",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Forecast",
+    "canonicalKey": "forecast",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/ai/forecast",
+      "/forecast"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator",
+      "merged2"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/automateinternational",
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/budget-alerts.js:132",
+        "route": "/ai/forecast",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "merged2",
+        "path": "energy-environment-agriculture/unified/original-source/AIAgricultureAssistant/backend/routes/weather.js:34",
+        "route": "/forecast",
+        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
+      }
+    ]
+  },
+  {
+    "name": "Gap AI Agentic Cost Governor",
+    "canonicalKey": "agentic ai cost gap governor",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapAiAgenticCostGovernor"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/GapAiAgenticCostGovernor.jsx",
+        "route": "/GapAiAgenticCostGovernor",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap AI Dataset Leakage Detector",
+    "canonicalKey": "ai dataset detector gap leakage",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapAiDatasetLeakageDetector"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/GapAiDatasetLeakageDetector.jsx",
+        "route": "/GapAiDatasetLeakageDetector",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap AI Fine Tune Roi Analyzer",
+    "canonicalKey": "ai analyzer fine gap roi tune",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapAiFineTuneRoiAnalyzer"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/GapAiFineTuneRoiAnalyzer.jsx",
+        "route": "/GapAiFineTuneRoiAnalyzer",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap AI Quality Vs Cost Pareto",
+    "canonicalKey": "ai cost gap pareto quality vs",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapAiQualityVsCostPareto"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/GapAiQualityVsCostPareto.jsx",
+        "route": "/GapAiQualityVsCostPareto",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap Anomaly",
+    "canonicalKey": "anomaly gap",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapAnomaly"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/GapAnomaly.jsx",
+        "route": "/GapAnomaly",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap Compliance",
+    "canonicalKey": "compliance gap",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapCompliance"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator",
+      "AINetworkascodeplatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/browser-extension-platform",
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AINetworkascodeplatform",
+        "path": "frontend/src/pages/GapCompliance.jsx",
+        "route": "/GapCompliance",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/GapCompliance.jsx",
+        "route": "/GapCompliance",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap Features",
+    "canonicalKey": "gap",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:87",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap Limited Campaign Scheduling No Day Parting Ui Surfaced",
+    "canonicalKey": "campaign day gap limited no parting scheduling surfaced ui",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/gap-limited-campaign-scheduling-no-day-parting-ui-surfaced"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/batch03Gaps.js:71",
+        "route": "/gap-limited-campaign-scheduling-no-day-parting-ui-surfaced",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap Multi Provider",
+    "canonicalKey": "gap multi provider",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapMultiProvider"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/GapMultiProvider.jsx",
+        "route": "/GapMultiProvider",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap Native",
+    "canonicalKey": "gap native",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNative"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/GapNative.jsx",
+        "route": "/GapNative",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Algorithmexplainer Plainenglish Explanati",
+    "canonicalKey": "algorithmexplainer explanati gap no plainenglish",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoAlgorithmexplainerPlainenglishExplanati",
+      "/gap-no-algorithmexplainer-plainenglish-explanati"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:216",
+        "route": "/gap-no-algorithmexplainer-plainenglish-explanati",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/GapNoAlgorithmexplainerPlainenglishExplanati.jsx",
+        "route": "/GapNoAlgorithmexplainerPlainenglishExplanati",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Audit Log 0 References",
+    "canonicalKey": "0 audit gap log no reference",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap-no-audit-log-0-references"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:100",
+        "route": "/gap-no-audit-log-0-references",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Audit Log0 References",
+    "canonicalKey": "audit gap log0 no reference",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoAuditLog0References"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/GapNoAuditLog0References.jsx",
+        "route": "/GapNoAuditLog0References",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Automated Rule Tuning From Historical",
+    "canonicalKey": "automated from gap historical no rule tuning",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoAutomatedRuleTuningFromHistorical",
+      "/gap-no-automated-rule-tuning-from-historical"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:94",
+        "route": "/gap-no-automated-rule-tuning-from-historical",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/GapNoAutomatedRuleTuningFromHistorical.jsx",
+        "route": "/GapNoAutomatedRuleTuningFromHistorical",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Benchmarkanalysis Across Providers",
+    "canonicalKey": "across benchmarkanalysis gap no provider",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoBenchmarkanalysisAcrossProviders",
+      "/gap-no-benchmarkanalysis-across-providers"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:220",
+        "route": "/gap-no-benchmarkanalysis-across-providers",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/GapNoBenchmarkanalysisAcrossProviders.jsx",
+        "route": "/GapNoBenchmarkanalysisAcrossProviders",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Benchmarking Framework Or Result Store",
+    "canonicalKey": "benchmarking framework gap no or result store",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoBenchmarkingFrameworkOrResultStore",
+      "/gap-no-benchmarking-framework-or-result-store"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:225",
+        "route": "/gap-no-benchmarking-framework-or-result-store",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/GapNoBenchmarkingFrameworkOrResultStore.jsx",
+        "route": "/GapNoBenchmarkingFrameworkOrResultStore",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Circuit Diagram Visualizationeditor",
+    "canonicalKey": "circuit diagram gap no visualizationeditor",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoCircuitDiagramVisualizationeditor",
+      "/gap-no-circuit-diagram-visualizationeditor"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:222",
+        "route": "/gap-no-circuit-diagram-visualizationeditor",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/GapNoCircuitDiagramVisualizationeditor.jsx",
+        "route": "/GapNoCircuitDiagramVisualizationeditor",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Circuitgenerator From Problem Description",
+    "canonicalKey": "circuitgenerator description from gap no problem",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoCircuitgeneratorFromProblemDescription",
+      "/gap-no-circuitgenerator-from-problem-description"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:217",
+        "route": "/gap-no-circuitgenerator-from-problem-description",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/GapNoCircuitgeneratorFromProblemDescription.jsx",
+        "route": "/GapNoCircuitgeneratorFromProblemDescription",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Driver Mobile App Endpoints",
+    "canonicalKey": "driver endpoint gap mobile no",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/gap-no-driver-mobile-app-endpoints"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/batch03Gaps.js:74",
+        "route": "/gap-no-driver-mobile-app-endpoints",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Educational Courselesson Structure",
+    "canonicalKey": "courselesson educational gap no structure",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoEducationalCourselessonStructure",
+      "/gap-no-educational-courselesson-structure"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:224",
+        "route": "/gap-no-educational-courselesson-structure",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/GapNoEducationalCourselessonStructure.jsx",
+        "route": "/GapNoEducationalCourselessonStructure",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Errormitigation Advisor",
+    "canonicalKey": "advisor errormitigation gap no",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoErrormitigationAdvisor",
+      "/gap-no-errormitigation-advisor"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:221",
+        "route": "/gap-no-errormitigation-advisor",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/GapNoErrormitigationAdvisor.jsx",
+        "route": "/GapNoErrormitigationAdvisor",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No External Integration No Programmatic Ooh Marketplace Con",
+    "canonicalKey": "con external gap integration marketplace no ooh programmatic",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/gap-no-external-integration-no-programmatic-ooh-marketplace-con"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/batch03Gaps.js:70",
+        "route": "/gap-no-external-integration-no-programmatic-ooh-marketplace-con",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Hardware Provider Accountcredential Mgmt",
+    "canonicalKey": "accountcredential gap hardware mgmt no provider",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoHardwareProviderAccountcredentialMgmt",
+      "/gap-no-hardware-provider-accountcredential-mgmt"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:226",
+        "route": "/gap-no-hardware-provider-accountcredential-mgmt",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/GapNoHardwareProviderAccountcredentialMgmt.jsx",
+        "route": "/GapNoHardwareProviderAccountcredentialMgmt",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Hardwarerecommendation Ibm Ionq Rigetti R",
+    "canonicalKey": "gap hardwarerecommendation ibm ionq no r rigetti",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoHardwarerecommendationIbmIonqRigettiR",
+      "/gap-no-hardwarerecommendation-ibm-ionq-rigetti-r"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:219",
+        "route": "/gap-no-hardwarerecommendation-ibm-ionq-rigetti-r",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/GapNoHardwarerecommendationIbmIonqRigettiR.jsx",
+        "route": "/GapNoHardwarerecommendationIbmIonqRigettiR",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Invoice Billing Module",
+    "canonicalKey": "billing gap invoice no",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/gap-no-invoice-billing-module"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/batch03Gaps.js:73",
+        "route": "/gap-no-invoice-billing-module",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Mqtt Broker Integration Only Http",
+    "canonicalKey": "broker gap http integration mqtt no only",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoMqttBrokerIntegrationOnlyHttp",
+      "/gap-no-mqtt-broker-integration-only-http"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:97",
+        "route": "/gap-no-mqtt-broker-integration-only-http",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/GapNoMqttBrokerIntegrationOnlyHttp.jsx",
+        "route": "/GapNoMqttBrokerIntegrationOnlyHttp",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Multi Tenant Fleet Partitioning",
+    "canonicalKey": "fleet gap multi no partitioning tenant",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoMultiTenantFleetPartitioning",
+      "/gap-no-multi-tenant-fleet-partitioning"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:99",
+        "route": "/gap-no-multi-tenant-fleet-partitioning",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/GapNoMultiTenantFleetPartitioning.jsx",
+        "route": "/GapNoMultiTenantFleetPartitioning",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Notification Engine 0 References",
+    "canonicalKey": "0 engine gap no notification reference",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap-no-notification-engine-0-references"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:101",
+        "route": "/gap-no-notification-engine-0-references",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Notification Engine0 References",
+    "canonicalKey": "engine0 gap no notification reference",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoNotificationEngine0References"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/GapNoNotificationEngine0References.jsx",
+        "route": "/GapNoNotificationEngine0References",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Notification System No Driver Operator Alerts",
+    "canonicalKey": "alert driver gap no notification operator",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/gap-no-notification-system-no-driver-operator-alerts"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/batch03Gaps.js:69",
+        "route": "/gap-no-notification-system-no-driver-operator-alerts",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Notifications Or Rbac",
+    "canonicalKey": "gap no notifications or rbac",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoNotificationsOrRbac",
+      "/gap-no-notifications-or-rbac"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:228",
+        "route": "/gap-no-notifications-or-rbac",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/GapNoNotificationsOrRbac.jsx",
+        "route": "/GapNoNotificationsOrRbac",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Optimizationproblemmapper Classical Quant",
+    "canonicalKey": "classical gap no optimizationproblemmapper quant",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoOptimizationproblemmapperClassicalQuant",
+      "/gap-no-optimizationproblemmapper-classical-quant"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:218",
+        "route": "/gap-no-optimizationproblemmapper-classical-quant",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/GapNoOptimizationproblemmapperClassicalQuant.jsx",
+        "route": "/GapNoOptimizationproblemmapperClassicalQuant",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Ota Firmware Delivery Pipeline Only",
+    "canonicalKey": "delivery firmware gap no only ota pipeline",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoOtaFirmwareDeliveryPipelineOnly",
+      "/gap-no-ota-firmware-delivery-pipeline-only"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:98",
+        "route": "/gap-no-ota-firmware-delivery-pipeline-only",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/GapNoOtaFirmwareDeliveryPipelineOnly.jsx",
+        "route": "/GapNoOtaFirmwareDeliveryPipelineOnly",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Predictive Bandwidthcost Optimizer Fo",
+    "canonicalKey": "bandwidthcost fo gap no optimizer predictive",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoPredictiveBandwidthcostOptimizerFo",
+      "/gap-no-predictive-bandwidthcost-optimizer-fo"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:95",
+        "route": "/gap-no-predictive-bandwidthcost-optimizer-fo",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/GapNoPredictiveBandwidthcostOptimizerFo.jsx",
+        "route": "/GapNoPredictiveBandwidthcostOptimizerFo",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Qr Sms Capture Endpoint For Response Tracking",
+    "canonicalKey": "capture endpoint for gap no qr response sms tracking",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/gap-no-qr-sms-capture-endpoint-for-response-tracking"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/batch03Gaps.js:72",
+        "route": "/gap-no-qr-sms-capture-endpoint-for-response-tracking",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Quantum Simulator Integration Qiskitcirqb",
+    "canonicalKey": "gap integration no qiskitcirqb quantum simulator",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoQuantumSimulatorIntegrationQiskitcirqb",
+      "/gap-no-quantum-simulator-integration-qiskitcirqb"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:223",
+        "route": "/gap-no-quantum-simulator-integration-qiskitcirqb",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/GapNoQuantumSimulatorIntegrationQiskitcirqb.jsx",
+        "route": "/GapNoQuantumSimulatorIntegrationQiskitcirqb",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Saved Circuits Sharing Or Library",
+    "canonicalKey": "circuits gap library no or saved sharing",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoSavedCircuitsSharingOrLibrary",
+      "/gap-no-saved-circuits-sharing-or-library"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:227",
+        "route": "/gap-no-saved-circuits-sharing-or-library",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/GapNoSavedCircuitsSharingOrLibrary.jsx",
+        "route": "/GapNoSavedCircuitsSharingOrLibrary",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Videoaudio Anomaly Detection For Av",
+    "canonicalKey": "anomaly av detection for gap no videoaudio",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoVideoaudioAnomalyDetectionForAv",
+      "/gap-no-videoaudio-anomaly-detection-for-av"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:96",
+        "route": "/gap-no-videoaudio-anomaly-detection-for-av",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/GapNoVideoaudioAnomalyDetectionForAv.jsx",
+        "route": "/GapNoVideoaudioAnomalyDetectionForAv",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Vision Model Competitor Billboard Analysis",
+    "canonicalKey": "analysis billboard competitor gap model no vision",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/gap-no-vision-model-competitor-billboard-analysis"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/batch03Gaps.js:65",
+        "route": "/gap-no-vision-model-competitor-billboard-analysis",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Voice Audio Ad Generation For Radio Extension",
+    "canonicalKey": "ad audio extension for gap generation no radio voice",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/gap-no-voice-audio-ad-generation-for-radio-extension"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/batch03Gaps.js:67",
+        "route": "/gap-no-voice-audio-ad-generation-for-radio-extension",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Weather Triggered Creative Selection",
+    "canonicalKey": "creative gap no selection triggered weather",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/gap-no-weather-triggered-creative-selection"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/batch03Gaps.js:66",
+        "route": "/gap-no-weather-triggered-creative-selection",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Webhook Dispatch For Alerts To",
+    "canonicalKey": "alerts dispatch for gap no to webhook",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoWebhookDispatchForAlertsTo",
+      "/gap-no-webhook-dispatch-for-alerts-to"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:102",
+        "route": "/gap-no-webhook-dispatch-for-alerts-to",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/GapNoWebhookDispatchForAlertsTo.jsx",
+        "route": "/GapNoWebhookDispatchForAlertsTo",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Webhooks No Dsp Ssp Integration Callbacks",
+    "canonicalKey": "callback dsp gap integration no ssp webhooks",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/gap-no-webhooks-no-dsp-ssp-integration-callbacks"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/batch03Gaps.js:68",
+        "route": "/gap-no-webhooks-no-dsp-ssp-integration-callbacks",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gap Saml Sso",
+    "canonicalKey": "gap saml sso",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapSamlSso"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/GapSamlSso.jsx",
+        "route": "/GapSamlSso",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Gate Operation",
+    "canonicalKey": "gate operation",
+    "aliases": [],
+    "kinds": [
+      "model",
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "model",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/models/GateOperation.js",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:43",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Geofence Generate",
+    "canonicalKey": "generate geofence",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/geofence-generate"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/aiExtra.js:241",
+        "route": "/geofence-generate",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Hardware Profile",
+    "canonicalKey": "hardware profile",
+    "aliases": [],
+    "kinds": [
+      "model",
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "model",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/models/HardwareProfile.js",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:67",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Hardware Recommendation",
+    "canonicalKey": "hardware recommendation",
+    "aliases": [
+      "Hardware Recommendation Page"
+    ],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/HardwareRecommendationPage",
+      "/api/ai/hardware-recommendation",
+      "/hardware-recommendation"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/index.js:454",
+        "route": "/api/ai/hardware-recommendation",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:160",
+        "route": "/hardware-recommendation",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/HardwareRecommendationPage.js",
+        "route": "/HardwareRecommendationPage",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Hardware Transpiler Page",
+    "canonicalKey": "hardware transpiler",
+    "aliases": [
+      "Hardware Transpiler"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/HardwareTranspilerPage",
+      "/hardware-transpiler"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:120",
+        "route": "/hardware-transpiler",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/HardwareTranspilerPage.js",
+        "route": "/HardwareTranspilerPage",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Health Monitor Summary",
+    "canonicalKey": "health monitor summary",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/ai/health-monitor-summary"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:1022",
+        "route": "/api/ai/health-monitor-summary",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Health Timeline",
+    "canonicalKey": "health timeline",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/health-timeline"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/routes/customViews.js:64",
+        "route": "/health-timeline",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Hw Credentials Gap",
+    "canonicalKey": "credentials gap hw",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:99",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Hw Recommendation",
+    "canonicalKey": "hw recommendation",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:80",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Hw Recommendation Gap",
+    "canonicalKey": "gap hw recommendation",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:92",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Hw Transpiler",
+    "canonicalKey": "hw transpiler",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:76",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Infrastructure",
+    "canonicalKey": "infrastructure",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:65",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Intelligence",
+    "canonicalKey": "intelligence",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:57",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Io T Views",
+    "canonicalKey": "io t",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/components/Sidebar.jsx:14",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Latency Record",
+    "canonicalKey": "latency record",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/latency-record"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/ai.js:322",
+        "route": "/latency-record",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Latency Stats",
+    "canonicalKey": "latency stat",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/latency-stats"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/ai.js:336",
+        "route": "/latency-stats",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Learn Habits",
+    "canonicalKey": "habit learn",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/smart-agents/learn-habits"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:771",
+        "route": "/api/smart-agents/learn-habits",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Learning Resource",
+    "canonicalKey": "learning resource",
+    "aliases": [],
+    "kinds": [
+      "model",
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "model",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/models/LearningResource.js",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:69",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Live Dispatch",
+    "canonicalKey": "dispatch live",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/live-dispatch"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/aiExtra.js:301",
+        "route": "/live-dispatch",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Model Recommendation",
+    "canonicalKey": "model recommendation",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/model-recommendation"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/ai.js:34",
+        "route": "/model-recommendation",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Multilingual",
+    "canonicalKey": "multilingual",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/multilingual"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/aiNew.js:190",
+        "route": "/multilingual",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Noise Analysis",
+    "canonicalKey": "analysis noise",
+    "aliases": [],
+    "kinds": [
+      "model",
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "model",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/models/NoiseAnalysis.js",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:51",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Notifications Rbac Gap",
+    "canonicalKey": "gap notifications rbac",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:101",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Offer",
+    "canonicalKey": "offer",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/offer"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/inventoryMarketplace.js:37",
+        "route": "/offer",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Optimization Mapper",
+    "canonicalKey": "mapper optimization",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:79",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Optimization Mapper Gap",
+    "canonicalKey": "gap mapper optimization",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:91",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Optimization Problem Mapper",
+    "canonicalKey": "mapper optimization problem",
+    "aliases": [
+      "Optimization Problem Mapper Page"
+    ],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/OptimizationProblemMapperPage",
+      "/api/ai/optimization-problem-mapper",
+      "/optimization-problem-mapper"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/index.js:411",
+        "route": "/api/ai/optimization-problem-mapper",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:150",
+        "route": "/optimization-problem-mapper",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/OptimizationProblemMapperPage.js",
+        "route": "/OptimizationProblemMapperPage",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Optimizations",
+    "canonicalKey": "optimization",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/ai/optimizations",
+      "/api/optimizations",
+      "/dashboard/optimizations"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator",
+      "AiDataAnalyst"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware",
+      "ai-ml-platforms-dev-tools/synthetic-data-generator"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AiDataAnalyst",
+        "path": "backend/src/routes/api.js:1241",
+        "route": "/ai/optimizations",
+        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/components/AppLayout.jsx:33",
+        "route": "/dashboard/optimizations",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/services/api.js:122",
+        "route": "/api/optimizations",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Optimize",
+    "canonicalKey": "optimize",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/optimize",
+      "/ai/optimize",
+      "/allocations/optimize",
+      "/optimize"
+    ],
+    "sourceProjects": [
+      "AIAppointmentSchedulerwithNLP",
+      "AIEmailTriageResponseAgent",
+      "AIModelCostOrchestrator",
+      "AiBusinessAutomation",
+      "merged2"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/automateinternational",
+      "ai-ml-platforms-dev-tools/dynamiclocationaware",
+      "ai-ml-platforms-dev-tools/meeting-agent",
+      "ai-ml-platforms-dev-tools/pdfgenius-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIAppointmentSchedulerwithNLP",
+        "path": "backend/src/routes/ai.js:86",
+        "route": "/allocations/optimize",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIEmailTriageResponseAgent",
+        "path": "backend/src/routes/subjectOptimizations.js:69",
+        "route": "/optimize",
+        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/cost-allocation.js:84",
+        "route": "/ai/optimize",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/prompt-optimization.js:84",
+        "route": "/ai/optimize",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/token-analysis.js:84",
+        "route": "/ai/optimize",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiBusinessAutomation",
+        "path": "backend/src/routes/workflowOptimizer.js:79",
+        "route": "/:id/optimize",
+        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "merged2",
+        "path": "energy-environment-agriculture/unified/original-source/AIAgricultureAssistant/backend/routes/irrigation.js:183",
+        "route": "/:id/optimize",
+        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
+      }
+    ]
+  },
+  {
+    "name": "Optimize Energy",
+    "canonicalKey": "energy optimize",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/smart-agents/optimize-energy"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:763",
+        "route": "/api/smart-agents/optimize-energy",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Ota Windows",
+    "canonicalKey": "ota window",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/ota-windows"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/routes/customViews.js:349",
+        "route": "/ota-windows",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Pool",
+    "canonicalKey": "pool",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "pool"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware",
+      "AIEmailTriageResponseAgent",
+      "AIFineTuningPlatform",
+      "AIHardwareIoT",
+      "AIIdentifymonetizeunderutilized"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/automateinternational",
+      "ai-ml-platforms-dev-tools/dynamiclocationaware",
+      "ai-ml-platforms-dev-tools/meeting-agent",
+      "ai-ml-platforms-dev-tools/rag-platform"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIEmailTriageResponseAgent",
+        "path": "backend/routes/batch03Gaps.js:53",
+        "route": "pool",
+        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "backend/routes/batch03Gaps.js:53",
+        "route": "pool",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/batch03Gaps.js:53",
+        "route": "pool",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/routes/gap-no-audit-log-0-references.js:25",
+        "route": "pool",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/routes/gap-no-automated-rule-tuning-from-historical.js:25",
+        "route": "pool",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/routes/gap-no-mqtt-broker-integration-only-http.js:25",
+        "route": "pool",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/routes/gap-no-multi-tenant-fleet-partitioning.js:25",
+        "route": "pool",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/routes/gap-no-notification-engine-0-references.js:25",
+        "route": "pool",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/routes/gap-no-ota-firmware-delivery-pipeline-only.js:25",
+        "route": "pool",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/routes/gap-no-predictive-bandwidthcost-optimizer-fo.js:25",
+        "route": "pool",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/routes/gap-no-videoaudio-anomaly-detection-for-av.js:25",
+        "route": "pool",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/routes/gap-no-webhook-dispatch-for-alerts-to.js:25",
+        "route": "pool",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIIdentifymonetizeunderutilized",
+        "path": "backend/routes/gap-limited-landlordtenant-communication-no-.js:25",
+        "route": "pool",
+        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIIdentifymonetizeunderutilized",
+        "path": "backend/routes/gap-no-demand-forecast-ai.js:25",
+        "route": "pool",
+        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIIdentifymonetizeunderutilized",
+        "path": "backend/routes/gap-no-equity-analysis-ai-synthesizing-commu.js:25",
+        "route": "pool",
+        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIIdentifymonetizeunderutilized",
+        "path": "backend/routes/gap-no-file-upload-for-compliance-documentat.js:25",
+        "route": "pool",
+        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIIdentifymonetizeunderutilized",
+        "path": "backend/routes/gap-no-partner-matching-ai.js:25",
+        "route": "pool",
+        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIIdentifymonetizeunderutilized",
+        "path": "backend/routes/gap-no-pricing-recommender-for-underutilized.js:25",
+        "route": "pool",
+        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIIdentifymonetizeunderutilized",
+        "path": "backend/routes/gap-no-public-marketplace-for-sharing-offere.js:25",
+        "route": "pool",
+        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIIdentifymonetizeunderutilized",
+        "path": "backend/routes/gap-no-real-time-grid-stability-streaming.js:25",
+        "route": "pool",
+        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIIdentifymonetizeunderutilized",
+        "path": "backend/routes/gap-no-utilization-opportunity-finder-endpoi.js:25",
+        "route": "pool",
+        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIIdentifymonetizeunderutilized",
+        "path": "backend/routes/gap-no-webhook-surface-for-utility-meter.js:25",
+        "route": "pool",
+        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
+      }
+    ]
+  },
+  {
+    "name": "Predict",
+    "canonicalKey": "predict",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/predict",
+      "/ai/predict",
+      "/noshow/predict",
+      "/predict"
+    ],
+    "sourceProjects": [
+      "AIAppointmentSchedulerwithNLP",
+      "AIHardwareIoT",
+      "AIModelCostOrchestrator",
+      "merged2"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/automateinternational",
+      "ai-ml-platforms-dev-tools/dynamiclocationaware",
+      "ai-ml-platforms-dev-tools/pdfgenius-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIAppointmentSchedulerwithNLP",
+        "path": "backend/src/routes/ai.js:65",
+        "route": "/noshow/predict",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/routes/agenticDeviceHealth.js:23",
+        "route": "/predict",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/cost-forecasting.js:84",
+        "route": "/ai/predict",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "merged2",
+        "path": "energy-environment-agriculture/unified/original-source/AIAgricultureAssistant/backend/routes/harvest.js:191",
+        "route": "/:id/predict",
+        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
+      }
+    ]
+  },
+  {
+    "name": "Production Controls Page",
+    "canonicalKey": "controls production",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/ProductionControlsPage"
+    ],
+    "sourceProjects": [
+      "AIAgentObservabilityPlus",
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/agent-observability-plus",
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIAgentObservabilityPlus",
+        "path": "frontend/src/pages/ProductionControlsPage.js",
+        "route": "/ProductionControlsPage",
+        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/ProductionControlsPage.jsx",
+        "route": "/ProductionControlsPage",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Prompt Optimization",
+    "canonicalKey": "optimization prompt",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/api/prompt-optimization",
+      "/dashboard/prompt-optimization"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/components/AppLayout.jsx:50",
+        "route": "/dashboard/prompt-optimization",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/services/api.js:378",
+        "route": "/api/prompt-optimization",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Prompt Optimization Suggestion",
+    "canonicalKey": "optimization prompt suggestion",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/prompt-optimization-suggestion"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/ai.js:66",
+        "route": "/prompt-optimization-suggestion",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Provider Anthropic Arbitrage",
+    "canonicalKey": "anthropic arbitrage provider",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/provider-anthropic-arbitrage"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/ai.js:252",
+        "route": "/provider-anthropic-arbitrage",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Provider Aws Bedrock Arbitrage",
+    "canonicalKey": "arbitrage aws bedrock provider",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/provider-aws-bedrock-arbitrage"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/ai.js:270",
+        "route": "/provider-aws-bedrock-arbitrage",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Provider Openai Arbitrage",
+    "canonicalKey": "arbitrage openai provider",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/provider-openai-arbitrage"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/ai.js:235",
+        "route": "/provider-openai-arbitrage",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Proxy Tester",
+    "canonicalKey": "proxy tester",
+    "aliases": [
+      "Proxy Tester Page"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/ProxyTesterPage",
+      "/dashboard/proxy-tester"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/App.jsx:54",
+        "route": "/dashboard/proxy-tester",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/components/AppLayout.jsx:40",
+        "route": "/dashboard/proxy-tester",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/ProxyTesterPage.jsx",
+        "route": "/ProxyTesterPage",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Qa",
+    "canonicalKey": "qa",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/research-papers/:id/qa"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/index.js:272",
+        "route": "/api/research-papers/:id/qa",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Quantum ML",
+    "canonicalKey": "ml quantum",
+    "aliases": [],
+    "kinds": [
+      "model",
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "model",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/models/QuantumML.js",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:59",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Quantum Protocol",
+    "canonicalKey": "protocol quantum",
+    "aliases": [],
+    "kinds": [
+      "model",
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "model",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/models/QuantumProtocol.js",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:61",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Quantum Query",
+    "canonicalKey": "quantum query",
+    "aliases": [
+      "Quantum Query Page"
+    ],
+    "kinds": [
+      "api",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/QuantumQueryPage",
+      "/api/ai/quantum-query",
+      "/quantum-query"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/index.js:325",
+        "route": "/api/ai/quantum-query",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:75",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:110",
+        "route": "/quantum-query",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/QuantumQueryPage.js",
+        "route": "/QuantumQueryPage",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Quantum Simulation",
+    "canonicalKey": "quantum simulation",
+    "aliases": [],
+    "kinds": [
+      "model",
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "model",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/models/QuantumSimulation.js",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:50",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Quantum Simulator Gap",
+    "canonicalKey": "gap quantum simulator",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:96",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Qubit Management",
+    "canonicalKey": "qubit",
+    "aliases": [],
+    "kinds": [
+      "model",
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "model",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/models/QubitManagement.js",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:49",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Rate Limiting",
+    "canonicalKey": "limiting rate",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/api/rate-limiting",
+      "/dashboard/rate-limiting"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/components/AppLayout.jsx:52",
+        "route": "/dashboard/rate-limiting",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/services/api.js:429",
+        "route": "/api/rate-limiting",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Recommend",
+    "canonicalKey": "recommend",
+    "aliases": [
+      "Recommend Tools"
+    ],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/ai/recommend",
+      "/recommend",
+      "/recommend-tools"
+    ],
+    "sourceProjects": [
+      "AIFineTuningPlatform",
+      "AIModelCostOrchestrator",
+      "merged2",
+      "software-for-agents"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/automateinternational",
+      "ai-ml-platforms-dev-tools/dynamiclocationaware",
+      "ai-ml-platforms-dev-tools/rag-platform",
+      "ai-ml-platforms-dev-tools/software-for-agents-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "software-for-agents",
+        "path": "backend/routes/ai.js:114",
+        "route": "/recommend-tools",
+        "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "backend/src/routes/agenticTrainer.js:9",
+        "route": "/recommend",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/ab-testing.js:94",
+        "route": "/ai/recommend",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/rate-limiting.js:84",
+        "route": "/ai/recommend",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "merged2",
+        "path": "energy-environment-agriculture/unified/original-source/ai-low-pesticide-agriculture/backend/routes/cf-biocontrol-marketplace.js:57",
+        "route": "/recommend",
+        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
+      }
+    ]
+  },
+  {
+    "name": "Record Conversion",
+    "canonicalKey": "conversion record",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/record-conversion"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/abTesting.js:126",
+        "route": "/:id/record-conversion",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Record Impression",
+    "canonicalKey": "impression record",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/record-impression"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/abTesting.js:103",
+        "route": "/:id/record-impression",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Render",
+    "canonicalKey": "render",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/render"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/audioAdGenerator.js:62",
+        "route": "/render",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Reported",
+    "canonicalKey": "reported",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/devices/:id/shadow/reported"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:837",
+        "route": "/api/devices/:id/shadow/reported",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Research Paper",
+    "canonicalKey": "paper research",
+    "aliases": [],
+    "kinds": [
+      "model",
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "model",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/models/ResearchPaper.js",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:60",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Rollback Window",
+    "canonicalKey": "rollback window",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/components/Sidebar.jsx:12",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Route Performance Predictor",
+    "canonicalKey": "performance predictor route",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/route-performance-predictor"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/aiNew.js:256",
+        "route": "/route-performance-predictor",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Routing Rules",
+    "canonicalKey": "routing rule",
+    "aliases": [
+      "Routing Rules Page"
+    ],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/RoutingRulesPage",
+      "/api/routing-rules",
+      "/dashboard/routing-rules",
+      "/routing-rules"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator",
+      "multi_agents"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware",
+      "ai-ml-platforms-dev-tools/mcp-server"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/App.jsx:50",
+        "route": "/dashboard/routing-rules",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/components/AppLayout.jsx:30",
+        "route": "/dashboard/routing-rules",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/services/api.js:222",
+        "route": "/api/routing-rules",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "multi_agents",
+        "path": "backend/src/routes/customViews.js:164",
+        "route": "/routing-rules",
+        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "multi_agents",
+        "path": "backend/src/routes/customViews.js:168",
+        "route": "/routing-rules",
+        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/RoutingRulesPage.jsx",
+        "route": "/RoutingRulesPage",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Seasonal Headlines",
+    "canonicalKey": "headline seasonal",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/seasonal-headlines"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/aiNew.js:62",
+        "route": "/seasonal-headlines",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Security Check",
+    "canonicalKey": "check security",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/smart-agents/security-check"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:779",
+        "route": "/api/smart-agents/security-check",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Sensor Heatmap",
+    "canonicalKey": "heatmap sensor",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/sensor-heatmap"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/routes/customViews.js:136",
+        "route": "/sensor-heatmap",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Sentiment Tone",
+    "canonicalKey": "sentiment tone",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/sentiment-tone"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/aiNew.js:128",
+        "route": "/sentiment-tone",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Shadow",
+    "canonicalKey": "shadow",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/devices/:id/shadow"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:790",
+        "route": "/api/devices/:id/shadow",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Shadow Summary",
+    "canonicalKey": "shadow summary",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/fleet/shadow-summary"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:879",
+        "route": "/api/fleet/shadow-summary",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Sla Cost Guardrail Page",
+    "canonicalKey": "cost guardrail sla",
+    "aliases": [
+      "Sla Cost Guardrail"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/SLACostGuardrailPage",
+      "/dashboard/sla-cost-guardrail"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/App.jsx:57",
+        "route": "/dashboard/sla-cost-guardrail",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/SLACostGuardrailPage.jsx",
+        "route": "/SLACostGuardrailPage",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Slots",
+    "canonicalKey": "slot",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/slots"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/inventoryMarketplace.js:11",
+        "route": "/slots",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Smart Agent Orchestration",
+    "canonicalKey": "agent orchestration smart",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/ai/smart-agent-orchestration"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:987",
+        "route": "/api/ai/smart-agent-orchestration",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Smart Agents",
+    "canonicalKey": "agent smart",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/SmartAgents",
+      "/smart-agents"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:83",
+        "route": "/smart-agents",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/SmartAgents.jsx",
+        "route": "/SmartAgents",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "State Visualization",
+    "canonicalKey": "state visualization",
+    "aliases": [],
+    "kinds": [
+      "model",
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "model",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/models/StateVisualization.js",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:52",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Submit Aggregate",
+    "canonicalKey": "aggregate submit",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/submit-aggregate"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/routes/federatedLearning.js:30",
+        "route": "/submit-aggregate",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Team Reports",
+    "canonicalKey": "report team",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/api/team-reports",
+      "/dashboard/team-reports"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/components/AppLayout.jsx:24",
+        "route": "/dashboard/team-reports",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/services/api.js:352",
+        "route": "/api/team-reports",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Telemetry",
+    "canonicalKey": "telemetry",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "model",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/:id/telemetry",
+      "/Telemetry",
+      "/api/telemetry",
+      "/models/telemetry",
+      "/schemas/telemetry",
+      "/telemetry"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT",
+      "AIobservability",
+      "dynamic-software-interfaces"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/assistant",
+      "ai-ml-platforms-dev-tools/dynamiclocationaware",
+      "ai-ml-platforms-dev-tools/software-for-agents-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "dynamic-software-interfaces",
+        "path": "backend/routes/layout_variants.js:146",
+        "route": "/:id/telemetry",
+        "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIobservability",
+        "path": "backend/app/api/v1/ingest.py:12",
+        "route": "/telemetry",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
+        "kind": "model",
+        "sourceProject": "AIobservability",
+        "path": "backend/app/models/telemetry.py",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
+        "kind": "model",
+        "sourceProject": "AIobservability",
+        "path": "backend/app/schemas/telemetry.py",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIobservability",
+        "path": "backend/app/models/telemetry.py",
+        "route": "/models/telemetry",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIobservability",
+        "path": "backend/app/schemas/telemetry.py",
+        "route": "/schemas/telemetry",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:323",
+        "route": "/api/telemetry",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/components/Sidebar.jsx:7",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:77",
+        "route": "/telemetry",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/Telemetry.jsx",
+        "route": "/Telemetry",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Token Analysis",
+    "canonicalKey": "analysis token",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/api/token-analysis",
+      "/dashboard/token-analysis"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/components/AppLayout.jsx:23",
+        "route": "/dashboard/token-analysis",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/services/api.js:248",
+        "route": "/api/token-analysis",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Track",
+    "canonicalKey": "track",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/analytics/track",
+      "/swift/track",
+      "/track"
+    ],
+    "sourceProjects": [
+      "AIAutomateinternational",
+      "AIDynamiclocationaware",
+      "AIKnowledgeBaseWikiGenerator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/automateinternational",
+      "ai-ml-platforms-dev-tools/dev-ops-infrastructure",
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIKnowledgeBaseWikiGenerator",
+        "path": "backend/src/routes/index.js:105",
+        "route": "/analytics/track",
+        "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/gps.js:72",
+        "route": "/track",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomateinternational",
+        "path": "backend/routes/integrations.js:57",
+        "route": "/swift/track",
+        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
+      }
+    ]
+  },
+  {
+    "name": "Truck Id",
+    "canonicalKey": "id truck",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/truck/:truckId"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/gps.js:28",
+        "route": "/truck/:truckId",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Upload Qasm",
+    "canonicalKey": "qasm upload",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/circuit-designs/:id/upload-qasm"
+    ],
+    "sourceProjects": [
+      "AIQuantumComputingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "server/index.js:91",
+        "route": "/api/circuit-designs/:id/upload-qasm",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Usage Monitoring",
+    "canonicalKey": "monitoring usage",
+    "aliases": [
+      "Usage Monitoring Page"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/UsageMonitoringPage",
+      "/api/usage-monitoring",
+      "/dashboard/usage-monitoring"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/App.jsx:53",
+        "route": "/dashboard/usage-monitoring",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/components/AppLayout.jsx:21",
+        "route": "/dashboard/usage-monitoring",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/services/api.js:171",
+        "route": "/api/usage-monitoring",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/UsageMonitoringPage.jsx",
+        "route": "/UsageMonitoringPage",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Usage Trends",
+    "canonicalKey": "trend usage",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/usage-trends"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/ai.js:373",
+        "route": "/usage-trends",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Weather Aware",
+    "canonicalKey": "aware weather",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/weather-aware"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/aiExtra.js:167",
+        "route": "/weather-aware",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Webhook Alert Config",
+    "canonicalKey": "alert config webhook",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/webhook-alert-config"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/ai.js:288",
+        "route": "/webhook-alert-config",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Ws",
+    "canonicalKey": "ws",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/ws"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware",
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/services/wsBroker.js:8",
+        "route": "/ws",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:67",
+        "route": "/ws",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Ws Broker",
+    "canonicalKey": "broker ws",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "wsBroker"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/aiExtra.js:288",
+        "route": "wsBroker",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/aiExtra.js:342",
+        "route": "wsBroker",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/aiExtra.js:424",
+        "route": "wsBroker",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/gps.js:125",
+        "route": "wsBroker",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Ws Stats",
+    "canonicalKey": "stat ws",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/ws-stats"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/aiExtra.js:423",
+        "route": "/ws-stats",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  }
+]

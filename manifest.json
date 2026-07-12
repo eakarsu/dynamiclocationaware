@@ -1,0 +1,30 @@
+{
+  "id": "dynamiclocationaware",
+  "title": "Dynamiclocationaware App",
+  "industry": "AI/ML Platforms & Dev Tools",
+  "industryId": "ai-ml-platforms-dev-tools",
+  "specialization": "Dynamiclocationaware",
+  "sourcePlatformGroup": "ai-agent-infrastructure-platform",
+  "sources": [
+    "AIDynamiclocationaware",
+    "AIHardwareIoT",
+    "AIModelCostOrchestrator",
+    "AIQuantumComputingAssistant"
+  ],
+  "featureCount": 196,
+  "candidateFeatureCount": 292,
+  "eliminatedSimilarFeatures": 96,
+  "evidenceCount": 386,
+  "aiPageCount": 0,
+  "sourceAIPageCount": 0,
+  "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
+  "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
+  "database": "database.sqlite",
+  "databaseSeed": {
+    "seededProjects": 2,
+    "seededTables": 8,
+    "seededRows": 210
+  },
+  "visibleFeatureCount": 8,
+  "featureVisibilityMode": "seeded-or-ai"
+}
