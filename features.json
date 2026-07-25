@@ -114,6 +114,7 @@
     "canonicalKey": "ai analytic",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "navigation",
       "page"
     ],
@@ -128,6 +129,13 @@
       "ai-ml-platforms-dev-tools/dynamiclocationaware"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/AIAnalytics.jsx:1",
+        "route": "/ai-analytics",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
       {
         "kind": "navigation",
         "sourceProject": "AIHardwareIoT",
@@ -147,6 +155,32 @@
         "sourceProject": "AIHardwareIoT",
         "path": "frontend/src/pages/AIAnalytics.jsx",
         "route": "/AIAnalytics",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "AI Model Registry",
+    "canonicalKey": "ai model registry",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/models"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/services/api.js:69",
+        "route": "/ai/models",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
     ]
@@ -197,6 +231,32 @@
         "sourceProject": "AIHardwareIoT",
         "path": "backend/src/index.js:444",
         "route": "/api/alert-rules",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Alert Webhook Needs Creds",
+    "canonicalKey": "alert cred need webhook",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/dashboard/ai-tools?tool=webhook-alert-config"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/AIToolsPage.jsx:101",
+        "route": "/dashboard/ai-tools?tool=webhook-alert-config",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
     ]
@@ -332,6 +392,58 @@
         "sourceProject": "AIHardwareIoT",
         "path": "backend/src/index.js:848",
         "route": "/api/devices/:id/shadow/analyze-drift",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Anthropic Cost Arbitrage Needs Creds",
+    "canonicalKey": "anthropic arbitrage cost cred need",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/dashboard/ai-tools?tool=provider-anthropic-arbitrage"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/AIToolsPage.jsx:80",
+        "route": "/dashboard/ai-tools?tool=provider-anthropic-arbitrage",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Aws Bedrock Arbitrage Needs Creds",
+    "canonicalKey": "arbitrage aws bedrock cred need",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/dashboard/ai-tools?tool=provider-aws-bedrock-arbitrage"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/AIToolsPage.jsx:91",
+        "route": "/dashboard/ai-tools?tool=provider-aws-bedrock-arbitrage",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
     ]
@@ -711,10 +823,12 @@
     "canonicalKey": "allocation budget",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
-      "/budget-allocation"
+      "/budget-allocation",
+      "/dashboard/ai-tools?tool=budget-allocation"
     ],
     "sourceProjects": [
       "AIModelCostOrchestrator"
@@ -723,6 +837,13 @@
       "ai-ml-platforms-dev-tools/dynamiclocationaware"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/AIToolsPage.jsx:44",
+        "route": "/dashboard/ai-tools?tool=budget-allocation",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
       {
         "kind": "api",
         "sourceProject": "AIModelCostOrchestrator",
@@ -1531,10 +1652,12 @@
     "canonicalKey": "anomaly cost detection",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
-      "/cost-anomaly-detection"
+      "/cost-anomaly-detection",
+      "/dashboard/ai-tools?tool=cost-anomaly-detection"
     ],
     "sourceProjects": [
       "AIModelCostOrchestrator"
@@ -1543,6 +1666,13 @@
       "ai-ml-platforms-dev-tools/dynamiclocationaware"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/AIToolsPage.jsx:9",
+        "route": "/dashboard/ai-tools?tool=cost-anomaly-detection",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
       {
         "kind": "api",
         "sourceProject": "AIModelCostOrchestrator",
@@ -2112,10 +2242,13 @@
     "canonicalKey": "analysis entanglement",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "model",
       "navigation"
     ],
-    "routes": [],
+    "routes": [
+      "/feature/:featureName?tool=entanglement-analysis"
+    ],
     "sourceProjects": [
       "AIQuantumComputingAssistant"
     ],
@@ -2123,6 +2256,13 @@
       "ai-ml-platforms-dev-tools/dynamiclocationaware"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/FeaturePage.js:196",
+        "route": "/feature/:featureName?tool=entanglement-analysis",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
       {
         "kind": "model",
         "sourceProject": "AIQuantumComputingAssistant",
@@ -4462,9 +4602,11 @@
     "canonicalKey": "model recommendation",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/dashboard/ai-tools?tool=model-recommendation",
       "/model-recommendation"
     ],
     "sourceProjects": [
@@ -4474,6 +4616,13 @@
       "ai-ml-platforms-dev-tools/dynamiclocationaware"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/AIToolsPage.jsx:20",
+        "route": "/dashboard/ai-tools?tool=model-recommendation",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
       {
         "kind": "api",
         "sourceProject": "AIModelCostOrchestrator",
@@ -4514,10 +4663,13 @@
     "canonicalKey": "analysis noise",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "model",
       "navigation"
     ],
-    "routes": [],
+    "routes": [
+      "/feature/:featureName?tool=noise-analysis"
+    ],
     "sourceProjects": [
       "AIQuantumComputingAssistant"
     ],
@@ -4525,6 +4677,13 @@
       "ai-ml-platforms-dev-tools/dynamiclocationaware"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/FeaturePage.js:160",
+        "route": "/feature/:featureName?tool=noise-analysis",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
       {
         "kind": "model",
         "sourceProject": "AIQuantumComputingAssistant",
@@ -4587,6 +4746,32 @@
         "sourceProject": "AIDynamiclocationaware",
         "path": "server/routes/inventoryMarketplace.js:37",
         "route": "/offer",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Open AI Cost Arbitrage Needs Creds",
+    "canonicalKey": "ai arbitrage cost cred need open",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/dashboard/ai-tools?tool=provider-openai-arbitrage"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/AIToolsPage.jsx:69",
+        "route": "/dashboard/ai-tools?tool=provider-openai-arbitrage",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
     ]
@@ -5081,10 +5266,12 @@
     "canonicalKey": "optimization prompt",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "page"
     ],
     "routes": [
       "/api/prompt-optimization",
+      "/dashboard/ai-tools?tool=prompt-optimization-suggestion",
       "/dashboard/prompt-optimization"
     ],
     "sourceProjects": [
@@ -5094,6 +5281,13 @@
       "ai-ml-platforms-dev-tools/dynamiclocationaware"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/AIToolsPage.jsx:33",
+        "route": "/dashboard/ai-tools?tool=prompt-optimization-suggestion",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
       {
         "kind": "page",
         "sourceProject": "AIModelCostOrchestrator",
@@ -5592,6 +5786,32 @@
     ]
   },
   {
+    "name": "Record Error Event",
+    "canonicalKey": "error event record",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/dashboard/ai-tools?tool=error-record"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/AIToolsPage.jsx:137",
+        "route": "/dashboard/ai-tools?tool=error-record",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
     "name": "Record Impression",
     "canonicalKey": "impression record",
     "aliases": [],
@@ -5613,6 +5833,58 @@
         "sourceProject": "AIDynamiclocationaware",
         "path": "server/routes/abTesting.js:103",
         "route": "/:id/record-impression",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Record Latency Sample",
+    "canonicalKey": "latency record sample",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/dashboard/ai-tools?tool=latency-record"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/AIToolsPage.jsx:126",
+        "route": "/dashboard/ai-tools?tool=latency-record",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Register Custom Model",
+    "canonicalKey": "custom model register",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/dashboard/ai-tools?tool=custom-model-register"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/AIToolsPage.jsx:112",
+        "route": "/dashboard/ai-tools?tool=custom-model-register",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
     ]
@@ -6099,6 +6371,32 @@
     ]
   },
   {
+    "name": "Smart Home Agents",
+    "canonicalKey": "agent home smart",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/smart-agents"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/SmartAgents.jsx:1",
+        "route": "/smart-agents",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
     "name": "State Visualization",
     "canonicalKey": "state visualization",
     "aliases": [],
@@ -6126,6 +6424,32 @@
         "sourceProject": "AIQuantumComputingAssistant",
         "path": "client/src/components/Sidebar.js:52",
         "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Stripe Billing Plan Needs Creds",
+    "canonicalKey": "billing cred need plan stripe",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/dashboard/ai-tools?tool=billing-stripe"
+    ],
+    "sourceProjects": [
+      "AIModelCostOrchestrator"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/AIToolsPage.jsx:58",
+        "route": "/dashboard/ai-tools?tool=billing-stripe",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
     ]

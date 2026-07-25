@@ -11,12 +11,12 @@
     "AIModelCostOrchestrator",
     "AIQuantumComputingAssistant"
   ],
-  "featureCount": 200,
-  "candidateFeatureCount": 316,
+  "featureCount": 210,
+  "candidateFeatureCount": 326,
   "eliminatedSimilarFeatures": 116,
-  "evidenceCount": 386,
-  "aiPageCount": 0,
-  "sourceAIPageCount": 0,
+  "evidenceCount": 403,
+  "aiPageCount": 17,
+  "sourceAIPageCount": 17,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
   "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
   "database": "database.sqlite",
@@ -25,6 +25,6 @@
     "seededTables": 8,
     "seededRows": 210
   },
-  "visibleFeatureCount": 8,
+  "visibleFeatureCount": 25,
   "featureVisibilityMode": "seeded-or-ai"
 }
