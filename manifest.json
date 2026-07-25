@@ -11,9 +11,9 @@
     "AIModelCostOrchestrator",
     "AIQuantumComputingAssistant"
   ],
-  "featureCount": 196,
-  "candidateFeatureCount": 292,
-  "eliminatedSimilarFeatures": 96,
+  "featureCount": 200,
+  "candidateFeatureCount": 316,
+  "eliminatedSimilarFeatures": 116,
   "evidenceCount": 386,
   "aiPageCount": 0,
   "sourceAIPageCount": 0,

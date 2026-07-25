@@ -1,80 +1,5 @@
 [
   {
-    "name": "AI Analyses",
-    "canonicalKey": "ai analyse",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/api/ai-analyses"
-    ],
-    "sourceProjects": [
-      "AIHardwareIoT"
-    ],
-    "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/dynamiclocationaware"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:488",
-        "route": "/api/ai-analyses",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:500",
-        "route": "/api/ai-analyses",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      }
-    ]
-  },
-  {
-    "name": "AI Analytics",
-    "canonicalKey": "ai analytic",
-    "aliases": [],
-    "kinds": [
-      "navigation",
-      "page"
-    ],
-    "routes": [
-      "/AIAnalytics",
-      "/ai-analytics"
-    ],
-    "sourceProjects": [
-      "AIHardwareIoT"
-    ],
-    "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/dynamiclocationaware"
-    ],
-    "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AIHardwareIoT",
-        "path": "frontend/src/components/Sidebar.jsx:9",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIHardwareIoT",
-        "path": "frontend/src/App.jsx:79",
-        "route": "/ai-analytics",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIHardwareIoT",
-        "path": "frontend/src/pages/AIAnalytics.jsx",
-        "route": "/AIAnalytics",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      }
-    ]
-  },
-  {
     "name": "Ab Testing",
     "canonicalKey": "ab testing",
     "aliases": [
@@ -152,6 +77,81 @@
     ]
   },
   {
+    "name": "AI Analyses",
+    "canonicalKey": "ai analyse",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/ai-analyses"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:481",
+        "route": "/api/ai-analyses",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHardwareIoT",
+        "path": "backend/src/index.js:493",
+        "route": "/api/ai-analyses",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "AI Analytics",
+    "canonicalKey": "ai analytic",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/AIAnalytics",
+      "/ai-analytics"
+    ],
+    "sourceProjects": [
+      "AIHardwareIoT"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/components/Sidebar.jsx:9",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:79",
+        "route": "/ai-analytics",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/AIAnalytics.jsx",
+        "route": "/AIAnalytics",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
     "name": "Alert Rules",
     "canonicalKey": "alert rule",
     "aliases": [],
@@ -188,14 +188,14 @@
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:439",
+        "path": "backend/src/index.js:432",
         "route": "/api/alert-rules",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       },
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:451",
+        "path": "backend/src/index.js:444",
         "route": "/api/alert-rules",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
@@ -251,7 +251,7 @@
       {
         "kind": "api",
         "sourceProject": "AIQuantumComputingAssistant",
-        "path": "server/index.js:377",
+        "path": "server/index.js:387",
         "route": "/api/ai/algorithm-explainer",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       },
@@ -330,7 +330,7 @@
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:855",
+        "path": "backend/src/index.js:848",
         "route": "/api/devices/:id/shadow/analyze-drift",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
@@ -362,7 +362,7 @@
       {
         "kind": "api",
         "sourceProject": "AIQuantumComputingAssistant",
-        "path": "server/index.js:564",
+        "path": "server/index.js:574",
         "route": "/api/ai/benchmark-analysis",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       },
@@ -542,6 +542,13 @@
     "evidence": [
       {
         "kind": "api",
+        "sourceProject": "company-brain",
+        "path": "backend/routes/retrieval-eval.js:33",
+        "route": "/benchmarks",
+        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
+      },
+      {
+        "kind": "api",
         "sourceProject": "software-for-agents",
         "path": "backend/routes/eval-harness.js:98",
         "route": "/leaderboard/:benchmark",
@@ -553,13 +560,6 @@
         "path": "backend/routes/eval-harness.js:73",
         "route": "/benchmarks",
         "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "company-brain",
-        "path": "backend/routes/retrieval-eval.js:33",
-        "route": "/benchmarks",
-        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
       },
       {
         "kind": "page",
@@ -938,7 +938,7 @@
   },
   {
     "name": "Cf Federated Learning For Edge Models Train",
-    "canonicalKey": "cf edge federated for learning models train",
+    "canonicalKey": "cf edge federated for learning model train",
     "aliases": [],
     "kinds": [
       "page"
@@ -1256,7 +1256,7 @@
       {
         "kind": "api",
         "sourceProject": "AIQuantumComputingAssistant",
-        "path": "server/index.js:512",
+        "path": "server/index.js:522",
         "route": "/api/ai/circuit-generator",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       },
@@ -1328,14 +1328,14 @@
       {
         "kind": "api",
         "sourceProject": "AIQuantumComputingAssistant",
-        "path": "server/index.js:110",
+        "path": "server/index.js:120",
         "route": "/api/quantum/simulate/:circuitId",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       },
       {
         "kind": "api",
         "sourceProject": "AIQuantumComputingAssistant",
-        "path": "server/index.js:155",
+        "path": "server/index.js:165",
         "route": "/api/hardware-profiles/:hwId/transpile/:circuitId",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
@@ -1387,6 +1387,32 @@
         "sourceProject": "AIHardwareIoT",
         "path": "backend/routes/customViews.js:201",
         "route": "/commissioning-pdf",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Consent Events",
+    "canonicalKey": "consent event",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/workspaces/:workspaceId/consent-events"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/governedDelivery.js:8",
+        "route": "/workspaces/:workspaceId/consent-events",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
     ]
@@ -1596,6 +1622,58 @@
     ]
   },
   {
+    "name": "Creative Assist",
+    "canonicalKey": "assist creative",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/workspaces/:workspaceId/creative-assist"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/governedDelivery.js:6",
+        "route": "/workspaces/:workspaceId/creative-assist",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Creatives",
+    "canonicalKey": "creative",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/workspaces/:workspaceId/campaigns/:campaignId/creatives"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/governedDelivery.js:12",
+        "route": "/workspaces/:workspaceId/campaigns/:campaignId/creatives",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
     "name": "Custom Model Register",
     "canonicalKey": "custom model register",
     "aliases": [],
@@ -1617,6 +1695,32 @@
         "sourceProject": "AIModelCostOrchestrator",
         "path": "server/routes/ai.js:307",
         "route": "/custom-model-register",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Delivery Events",
+    "canonicalKey": "delivery event",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/workspaces/:workspaceId/delivery-events"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/governedDelivery.js:15",
+        "route": "/workspaces/:workspaceId/delivery-events",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
     ]
@@ -1667,7 +1771,7 @@
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:819",
+        "path": "backend/src/index.js:812",
         "route": "/api/devices/:id/shadow/desired",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
@@ -1726,7 +1830,7 @@
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:897",
+        "path": "backend/src/index.js:890",
         "route": "/api/ai/device-cluster-analysis",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
@@ -1762,7 +1866,7 @@
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:356",
+        "path": "backend/src/index.js:349",
         "route": "/api/telemetry/device/:deviceId",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
@@ -1833,14 +1937,14 @@
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:209",
+        "path": "backend/src/index.js:202",
         "route": "/api/devices",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       },
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:282",
+        "path": "backend/src/index.js:275",
         "route": "/api/devices",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       },
@@ -1917,14 +2021,14 @@
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:621",
+        "path": "backend/src/index.js:614",
         "route": "/api/edge-inferences",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       },
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:634",
+        "path": "backend/src/index.js:627",
         "route": "/api/edge-inferences",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       },
@@ -1971,7 +2075,7 @@
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:960",
+        "path": "backend/src/index.js:953",
         "route": "/api/ai/edge-inference-deployment",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
@@ -1997,7 +2101,7 @@
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:1057",
+        "path": "backend/src/index.js:1050",
         "route": "/api/ai/energy-efficiency-advisor",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
@@ -2116,7 +2220,7 @@
       {
         "kind": "api",
         "sourceProject": "AIQuantumComputingAssistant",
-        "path": "server/index.js:640",
+        "path": "server/index.js:650",
         "route": "/api/ai/error-mitigation-advisor",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       },
@@ -2196,6 +2300,7 @@
     "routes": [
       "/:id/evaluate",
       "/alerts/evaluate",
+      "/circuit/evaluate",
       "/evaluate"
     ],
     "sourceProjects": [
@@ -2204,31 +2309,29 @@
       "AIModelCostOrchestrator",
       "AINetworkascodeplatform",
       "AiBusinessAutomation",
-      "ai-operating-system-for-companies",
-      "dynamic-software-interfaces"
+      "ai-operating-system-for-companies"
     ],
     "consolidatedFromApps": [
       "ai-ml-platforms-dev-tools/automateinternational",
       "ai-ml-platforms-dev-tools/browser-extension-platform",
       "ai-ml-platforms-dev-tools/code-interpreter",
       "ai-ml-platforms-dev-tools/dev-ops-infrastructure",
-      "ai-ml-platforms-dev-tools/dynamiclocationaware",
-      "ai-ml-platforms-dev-tools/software-for-agents-merged"
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
     ],
     "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINetworkascodeplatform",
+        "path": "backend/routes/anomalyRules.js:151",
+        "route": "/:id/evaluate",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
       {
         "kind": "api",
         "sourceProject": "ai-operating-system-for-companies",
         "path": "backend/routes/gap-nonai-alerting.js:94",
         "route": "/evaluate",
         "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "dynamic-software-interfaces",
-        "path": "backend/routes/intent_classifier.js:112",
-        "route": "/evaluate",
-        "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
       },
       {
         "kind": "api",
@@ -2239,16 +2342,23 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AINetworkascodeplatform",
-        "path": "backend/routes/anomalyRules.js:151",
-        "route": "/:id/evaluate",
-        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIDynamiclocationaware",
         "path": "server/routes/weatherTriggered.js:31",
         "route": "/evaluate",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/costWorkflow.js:2",
+        "route": "/evaluate",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/costWorkflow.js:3",
+        "route": "/circuit/evaluate",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       },
       {
@@ -2294,7 +2404,7 @@
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:560",
+        "path": "backend/src/index.js:553",
         "route": "/api/firmware",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       },
@@ -2322,14 +2432,14 @@
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:569",
+        "path": "backend/src/index.js:562",
         "route": "/api/firmware-updates",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       },
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:585",
+        "path": "backend/src/index.js:578",
         "route": "/api/firmware-updates",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
@@ -2355,7 +2465,7 @@
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:923",
+        "path": "backend/src/index.js:916",
         "route": "/api/ai/firmware-recommendation",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
@@ -2451,7 +2561,7 @@
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:676",
+        "path": "backend/src/index.js:669",
         "route": "/api/ai/fleet-query",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
@@ -2465,15 +2575,12 @@
       "api"
     ],
     "routes": [
-      "/ai/forecast",
-      "/forecast"
+      "/ai/forecast"
     ],
     "sourceProjects": [
-      "AIModelCostOrchestrator",
-      "merged2"
+      "AIModelCostOrchestrator"
     ],
     "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/automateinternational",
       "ai-ml-platforms-dev-tools/dynamiclocationaware"
     ],
     "evidence": [
@@ -2483,13 +2590,6 @@
         "path": "server/routes/budget-alerts.js:132",
         "route": "/ai/forecast",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "merged2",
-        "path": "energy-environment-agriculture/unified/original-source/AIAgricultureAssistant/backend/routes/weather.js:34",
-        "route": "/forecast",
-        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
       }
     ]
   },
@@ -3378,7 +3478,7 @@
   },
   {
     "name": "Gap No Notifications Or Rbac",
-    "canonicalKey": "gap no notifications or rbac",
+    "canonicalKey": "gap no notification or rbac",
     "aliases": [],
     "kinds": [
       "page"
@@ -3574,7 +3674,7 @@
   },
   {
     "name": "Gap No Saved Circuits Sharing Or Library",
-    "canonicalKey": "circuits gap library no or saved sharing",
+    "canonicalKey": "circuit gap library no or saved sharing",
     "aliases": [],
     "kinds": [
       "page"
@@ -3720,7 +3820,7 @@
   },
   {
     "name": "Gap No Webhook Dispatch For Alerts To",
-    "canonicalKey": "alerts dispatch for gap no to webhook",
+    "canonicalKey": "alert dispatch for gap no to webhook",
     "aliases": [],
     "kinds": [
       "page"
@@ -3754,7 +3854,7 @@
   },
   {
     "name": "Gap No Webhooks No Dsp Ssp Integration Callbacks",
-    "canonicalKey": "callback dsp gap integration no ssp webhooks",
+    "canonicalKey": "callback dsp gap integration no ssp webhook",
     "aliases": [],
     "kinds": [
       "api"
@@ -3919,7 +4019,7 @@
       {
         "kind": "api",
         "sourceProject": "AIQuantumComputingAssistant",
-        "path": "server/index.js:454",
+        "path": "server/index.js:464",
         "route": "/api/ai/hardware-recommendation",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       },
@@ -3995,7 +4095,7 @@
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:1022",
+        "path": "backend/src/index.js:1015",
         "route": "/api/ai/health-monitor-summary",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
@@ -4029,7 +4129,7 @@
   },
   {
     "name": "Hw Credentials Gap",
-    "canonicalKey": "credentials gap hw",
+    "canonicalKey": "credential gap hw",
     "aliases": [],
     "kinds": [
       "navigation"
@@ -4267,7 +4367,7 @@
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:771",
+        "path": "backend/src/index.js:764",
         "route": "/api/smart-agents/learn-habits",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
@@ -4327,6 +4427,32 @@
         "sourceProject": "AIDynamiclocationaware",
         "path": "server/routes/aiExtra.js:301",
         "route": "/live-dispatch",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      }
+    ]
+  },
+  {
+    "name": "Location Contexts",
+    "canonicalKey": "context location",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/workspaces/:workspaceId/location-contexts"
+    ],
+    "sourceProjects": [
+      "AIDynamiclocationaware"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/governedDelivery.js:9",
+        "route": "/workspaces/:workspaceId/location-contexts",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
     ]
@@ -4417,7 +4543,7 @@
   },
   {
     "name": "Notifications Rbac Gap",
-    "canonicalKey": "gap notifications rbac",
+    "canonicalKey": "gap notification rbac",
     "aliases": [],
     "kinds": [
       "navigation"
@@ -4538,7 +4664,7 @@
       {
         "kind": "api",
         "sourceProject": "AIQuantumComputingAssistant",
-        "path": "server/index.js:411",
+        "path": "server/index.js:421",
         "route": "/api/ai/optimization-problem-mapper",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       },
@@ -4581,13 +4707,6 @@
     ],
     "evidence": [
       {
-        "kind": "api",
-        "sourceProject": "AiDataAnalyst",
-        "path": "backend/src/routes/api.js:1241",
-        "route": "/ai/optimizations",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
         "kind": "page",
         "sourceProject": "AIModelCostOrchestrator",
         "path": "client/src/components/AppLayout.jsx:33",
@@ -4600,6 +4719,13 @@
         "path": "client/src/services/api.js:122",
         "route": "/api/optimizations",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiDataAnalyst",
+        "path": "backend/src/routes/api.js:1241",
+        "route": "/ai/optimizations",
+        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
       }
     ]
   },
@@ -4620,8 +4746,7 @@
       "AIAppointmentSchedulerwithNLP",
       "AIEmailTriageResponseAgent",
       "AIModelCostOrchestrator",
-      "AiBusinessAutomation",
-      "merged2"
+      "AiBusinessAutomation"
     ],
     "consolidatedFromApps": [
       "ai-ml-platforms-dev-tools/automateinternational",
@@ -4632,17 +4757,17 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "AIAppointmentSchedulerwithNLP",
-        "path": "backend/src/routes/ai.js:86",
-        "route": "/allocations/optimize",
-        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIEmailTriageResponseAgent",
         "path": "backend/src/routes/subjectOptimizations.js:69",
         "route": "/optimize",
         "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAppointmentSchedulerwithNLP",
+        "path": "backend/src/routes/ai.js:86",
+        "route": "/allocations/optimize",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
       },
       {
         "kind": "api",
@@ -4671,13 +4796,6 @@
         "path": "backend/src/routes/workflowOptimizer.js:79",
         "route": "/:id/optimize",
         "originApp": "ai-ml-platforms-dev-tools/automateinternational"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "merged2",
-        "path": "energy-environment-agriculture/unified/original-source/AIAgricultureAssistant/backend/routes/irrigation.js:183",
-        "route": "/:id/optimize",
-        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
       }
     ]
   },
@@ -4701,7 +4819,7 @@
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:763",
+        "path": "backend/src/index.js:756",
         "route": "/api/smart-agents/optimize-energy",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
@@ -4763,13 +4881,6 @@
         "path": "backend/routes/batch03Gaps.js:53",
         "route": "pool",
         "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIFineTuningPlatform",
-        "path": "backend/routes/batch03Gaps.js:53",
-        "route": "pool",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
       },
       {
         "kind": "api",
@@ -4840,6 +4951,13 @@
         "path": "backend/routes/gap-no-webhook-dispatch-for-alerts-to.js:25",
         "route": "pool",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "backend/routes/batch03Gaps.js:53",
+        "route": "pool",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
       },
       {
         "kind": "api",
@@ -4921,7 +5039,6 @@
       "api"
     ],
     "routes": [
-      "/:id/predict",
       "/ai/predict",
       "/noshow/predict",
       "/predict"
@@ -4929,11 +5046,9 @@
     "sourceProjects": [
       "AIAppointmentSchedulerwithNLP",
       "AIHardwareIoT",
-      "AIModelCostOrchestrator",
-      "merged2"
+      "AIModelCostOrchestrator"
     ],
     "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/automateinternational",
       "ai-ml-platforms-dev-tools/dynamiclocationaware",
       "ai-ml-platforms-dev-tools/pdfgenius-merged"
     ],
@@ -4957,48 +5072,6 @@
         "sourceProject": "AIModelCostOrchestrator",
         "path": "server/routes/cost-forecasting.js:84",
         "route": "/ai/predict",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "merged2",
-        "path": "energy-environment-agriculture/unified/original-source/AIAgricultureAssistant/backend/routes/harvest.js:191",
-        "route": "/:id/predict",
-        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
-      }
-    ]
-  },
-  {
-    "name": "Production Controls Page",
-    "canonicalKey": "controls production",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/ProductionControlsPage"
-    ],
-    "sourceProjects": [
-      "AIAgentObservabilityPlus",
-      "AIModelCostOrchestrator"
-    ],
-    "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/agent-observability-plus",
-      "ai-ml-platforms-dev-tools/dynamiclocationaware"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AIAgentObservabilityPlus",
-        "path": "frontend/src/pages/ProductionControlsPage.js",
-        "route": "/ProductionControlsPage",
-        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIModelCostOrchestrator",
-        "path": "client/src/pages/ProductionControlsPage.jsx",
-        "route": "/ProductionControlsPage",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
     ]
@@ -5204,7 +5277,7 @@
       {
         "kind": "api",
         "sourceProject": "AIQuantumComputingAssistant",
-        "path": "server/index.js:272",
+        "path": "server/index.js:282",
         "route": "/api/research-papers/:id/qa",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
@@ -5300,7 +5373,7 @@
       {
         "kind": "api",
         "sourceProject": "AIQuantumComputingAssistant",
-        "path": "server/index.js:325",
+        "path": "server/index.js:335",
         "route": "/api/ai/quantum-query",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       },
@@ -5452,44 +5525,23 @@
   {
     "name": "Recommend",
     "canonicalKey": "recommend",
-    "aliases": [
-      "Recommend Tools"
-    ],
+    "aliases": [],
     "kinds": [
       "api"
     ],
     "routes": [
       "/ai/recommend",
-      "/recommend",
-      "/recommend-tools"
+      "/recommend"
     ],
     "sourceProjects": [
       "AIFineTuningPlatform",
-      "AIModelCostOrchestrator",
-      "merged2",
-      "software-for-agents"
+      "AIModelCostOrchestrator"
     ],
     "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/automateinternational",
       "ai-ml-platforms-dev-tools/dynamiclocationaware",
-      "ai-ml-platforms-dev-tools/rag-platform",
-      "ai-ml-platforms-dev-tools/software-for-agents-merged"
+      "ai-ml-platforms-dev-tools/rag-platform"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "software-for-agents",
-        "path": "backend/routes/ai.js:114",
-        "route": "/recommend-tools",
-        "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIFineTuningPlatform",
-        "path": "backend/src/routes/agenticTrainer.js:9",
-        "route": "/recommend",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
       {
         "kind": "api",
         "sourceProject": "AIModelCostOrchestrator",
@@ -5506,10 +5558,10 @@
       },
       {
         "kind": "api",
-        "sourceProject": "merged2",
-        "path": "energy-environment-agriculture/unified/original-source/ai-low-pesticide-agriculture/backend/routes/cf-biocontrol-marketplace.js:57",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "backend/src/routes/agenticTrainer.js:9",
         "route": "/recommend",
-        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
       }
     ]
   },
@@ -5611,7 +5663,7 @@
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:837",
+        "path": "backend/src/index.js:830",
         "route": "/api/devices/:id/shadow/reported",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
@@ -5746,6 +5798,13 @@
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       },
       {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/RoutingRulesPage.jsx",
+        "route": "/RoutingRulesPage",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
         "kind": "api",
         "sourceProject": "multi_agents",
         "path": "backend/src/routes/customViews.js:164",
@@ -5758,13 +5817,6 @@
         "path": "backend/src/routes/customViews.js:168",
         "route": "/routing-rules",
         "originApp": "ai-ml-platforms-dev-tools/mcp-server"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIModelCostOrchestrator",
-        "path": "client/src/pages/RoutingRulesPage.jsx",
-        "route": "/RoutingRulesPage",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
     ]
   },
@@ -5814,7 +5866,7 @@
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:779",
+        "path": "backend/src/index.js:772",
         "route": "/api/smart-agents/security-check",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
@@ -5892,7 +5944,7 @@
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:790",
+        "path": "backend/src/index.js:783",
         "route": "/api/devices/:id/shadow",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
@@ -5918,7 +5970,7 @@
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:879",
+        "path": "backend/src/index.js:872",
         "route": "/api/fleet/shadow-summary",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
@@ -6006,7 +6058,7 @@
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:987",
+        "path": "backend/src/index.js:980",
         "route": "/api/ai/smart-agent-orchestration",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
@@ -6157,23 +6209,18 @@
       "/telemetry"
     ],
     "sourceProjects": [
+      "AIDigitalTwinPlatform",
       "AIHardwareIoT",
-      "AIobservability",
-      "dynamic-software-interfaces"
+      "AIMonitorrealtimeaudi",
+      "AIobservability"
     ],
     "consolidatedFromApps": [
       "ai-ml-platforms-dev-tools/assistant",
       "ai-ml-platforms-dev-tools/dynamiclocationaware",
-      "ai-ml-platforms-dev-tools/software-for-agents-merged"
+      "ai-ml-platforms-dev-tools/rag-platform",
+      "ai-ml-platforms-dev-tools/synthetic-data-generator"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "dynamic-software-interfaces",
-        "path": "backend/routes/layout_variants.js:146",
-        "route": "/:id/telemetry",
-        "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
-      },
       {
         "kind": "api",
         "sourceProject": "AIobservability",
@@ -6212,7 +6259,7 @@
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:323",
+        "path": "backend/src/index.js:316",
         "route": "/api/telemetry",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       },
@@ -6236,6 +6283,20 @@
         "path": "frontend/src/pages/Telemetry.jsx",
         "route": "/Telemetry",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDigitalTwinPlatform",
+        "path": "server/routes/twinOperations.js:13",
+        "route": "/:id/telemetry",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMonitorrealtimeaudi",
+        "path": "server/routes/transitSafetyWorkflow.js:2",
+        "route": "/telemetry",
+        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
       }
     ]
   },
@@ -6299,7 +6360,7 @@
       {
         "kind": "api",
         "sourceProject": "AIKnowledgeBaseWikiGenerator",
-        "path": "backend/src/routes/index.js:105",
+        "path": "backend/src/routes/index.js:114",
         "route": "/analytics/track",
         "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
       },
@@ -6365,7 +6426,7 @@
       {
         "kind": "api",
         "sourceProject": "AIQuantumComputingAssistant",
-        "path": "server/index.js:91",
+        "path": "server/index.js:101",
         "route": "/api/circuit-designs/:id/upload-qasm",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
@@ -6528,7 +6589,7 @@
       {
         "kind": "api",
         "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:67",
+        "path": "backend/src/index.js:60",
         "route": "/ws",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
       }
