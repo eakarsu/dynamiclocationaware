@@ -25,6 +25,6 @@
     "seededTables": 8,
     "seededRows": 210
   },
-  "visibleFeatureCount": 25,
-  "featureVisibilityMode": "seeded-or-ai"
+  "visibleFeatureCount": 210,
+  "featureVisibilityMode": "all-source-backed"
 }

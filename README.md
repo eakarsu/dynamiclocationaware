@@ -3,7 +3,7 @@
 Industry: **AI/ML Platforms & Dev Tools**  
 Specialization: **Dynamiclocationaware**
 
-This standalone application consolidates source-backed capabilities into 210 optimized features, including 25 visible data-backed or AI-enabled views. Its public demo SQLite database contains 210 sanitized source rows across 8 imported tables and 120 operational workflow records.
+This standalone application consolidates source-backed capabilities into 210 optimized features, including all 210 source-backed feature views. Its public demo SQLite database contains 210 sanitized source rows across 8 imported tables and 120 operational workflow records.
 
 ## Run locally
 
